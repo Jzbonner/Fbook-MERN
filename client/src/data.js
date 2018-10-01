@@ -1,0 +1,6 @@
+const data = [
+    { _id: 1, author: 'John', text: 'Wow this is neat', updatedAt: new Date(), createdAt: new Date() },
+    { _id: 2, author: 'You', text: 'You\'re right!', updatedAt: new Date(), createdAt: new Date() }
+]
+
+export default data; 
