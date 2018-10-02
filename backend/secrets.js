@@ -1,5 +1,5 @@
 const secrets = {
-    dbUri: process.env.DB_URI
+    dbUri: 'mongodb://jzbonner:Jarrett16@ds119853.mlab.com:19853/fbook-mern', 
 }
 
 export const getSecret = key => secrets[key]; 
